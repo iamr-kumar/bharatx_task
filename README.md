@@ -44,11 +44,13 @@ Golang
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
-
 ```bash
 git clone [repository-link]
+```
 
+  Run the following commands in the project directory
+  
+```bash
 go mod init example.com/bharatx_task
 
 go get github.com/gorilla/mux
@@ -57,6 +59,17 @@ go build server.go
 
 go run server.go
 ```
+  
+
+  #### Make a post request to http://localhost:8000/grids/[id]/feed via Postman
+ 
+  
+  Request body
+  ```bash
+  {
+    "command": "FFLLRFFLR"
+  }
+  ```
   
 ## 💡 Implementation Choice <a name = "implementation_choice"></a>
   
