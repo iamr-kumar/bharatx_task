@@ -11,11 +11,8 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -60,7 +57,7 @@ go build server.go
 go run server.go
 ```
 
-## 🎈 Screenshots <a name="usage"></a>
+## 🎈 Screenshots <a name="screenshots"></a>
 
 Add notes about how to use the system.
 
@@ -76,6 +73,5 @@ Add notes about how to use the system.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Shyam Muruhan
+- Mehul Jindal
