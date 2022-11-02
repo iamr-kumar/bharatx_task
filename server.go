@@ -79,6 +79,7 @@ func callPythonScript(id string, currentPos Position, direction string, query st
 // 2. Looks for the grid with the given ID in the existing Grid array.
 // 3. If found, runs the operation on the existing grid and returns the new position
 // 4. If not found, creates a new grid and returns the new position
+// Note - the position in the grid is 0 indexed
 func getNewPosition(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	params := mux.Vars(r)
