@@ -11,6 +11,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Implementation Choice](#implementation_choice)
 - [Screenshots](#screenshots)
 - [Built Using](#built_using)
 - [Authors](#authors)
@@ -56,6 +57,18 @@ go build server.go
 
 go run server.go
 ```
+  
+## 💡 Implementation Choice <a name = "implementation_choice"></a>
+  
+  <p>
+    The main challenge was how to make the Go server communicate with the Python script. The way I have implemented it is that the request handler runs the Python script as a shell command using exec.Command and passes the necessary arguments as command line arguments. The output is the read from the stdout in the form of bytes which is then converted into string and then the corresponsing Grid struct type. 
+    <br>
+    This perhaps is not the best way to implement it in the long run. I did find another way which could have been better that used C API to run a python program using C header files. But I just could not get the neccessary setup required to make that work. Also, it needed quite a few specific configurations which would have been hard to replicate to run this system locally and therefore test. 
+    <br>
+    One other possibility I thought of was to expose the neccessary functions as a Flash API but that would've invalidated the purpose of having a Go server. 
+    <br>
+    Therefore, I made the decision to keep things simple and instead run the python program as a shell script.
+  </p>
 
 ## 🎈 Screenshots <a name="screenshots"></a>
 
