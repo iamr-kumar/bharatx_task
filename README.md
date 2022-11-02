@@ -28,7 +28,7 @@
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -59,7 +59,17 @@ go run server.go
 
 ## 🎈 Screenshots <a name="screenshots"></a>
 
-Add notes about how to use the system.
+  ![Screenshot 2022-11-02 163511](https://user-images.githubusercontent.com/58480195/199474876-4c0d1258-2c59-43e7-8236-f726b7f9783f.png)
+   ![Screenshot 2022-11-02 163554](https://user-images.githubusercontent.com/58480195/199474861-eed5827d-3bc9-4be1-b1e6-5db6cdc9109b.png)
+    ![Screenshot 2022-11-02 163632](https://user-images.githubusercontent.com/58480195/199474832-f0ac0b14-8171-4b6d-818e-fa4dec52dc90.png)
+  ![Screenshot 2022-11-02 163653](https://user-images.githubusercontent.com/58480195/199474821-fd034dd3-31ff-4012-b73e-1944b54b1bd5.png)
+![Screenshot 2022-11-02 163719](https://user-images.githubusercontent.com/58480195/199474806-e6c26f73-c1ac-43d7-930f-c242e7afa85f.png)
+
+
+
+
+
+
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -73,5 +83,5 @@ Add notes about how to use the system.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Shyam Muruhan
+- Shyam Murugan
 - Mehul Jindal
